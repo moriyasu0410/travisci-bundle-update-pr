@@ -1,4 +1,5 @@
 require 'travisci/bundle/update/pr/version'
+require 'octokit'
 
 module Travisci
   module Bundle
