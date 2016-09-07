@@ -12,7 +12,7 @@ module Travisci
           unless system("bundle update && bundle update --ruby")
             raise "Unable to execute `bundle update && bundle update --ruby`"
           end
-          unless `git status -s 2> /dev/null`.include?('Gemfile.lock')
+          unless system("git status -s 2> /dev/null").include?('Gemfile.lock')
             return
           end
 
