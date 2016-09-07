@@ -5,7 +5,7 @@ module Travisci
   module Bundle
     module Update
       module Pr
-        def self.start(git_username: nil, git_email: nil, git_branch: ['master'])
+        def self.start(git_username: nil, git_email: nil, git_branch: 'master')
           raise "travisci-bundle-update-pr can be executed only in Travis CI." unless ENV['TRAVIS']
           raise "$TRAVIS_REPO_SLUG undefined." unless ENV['TRAVIS_REPO_SLUG']
           raise "$GITHUB_ACCESS_TOKEN undefined." unless ENV['GITHUB_ACCESS_TOKEN']
