@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    travisci-bundle-update-pr (0.0.5)
+    travisci-bundle-update-pr (0.0.6)
       octokit (~> 4.0)
 
 GEM
