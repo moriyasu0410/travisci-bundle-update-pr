@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Yasufumi Moritake"]
   spec.email         = ["moritake@mediba.jp"]
 
-  spec.summary       = %q{Create GitHub PullRequest of bundle update in TravisCI.}
-  spec.description   = %q{A script for continues bundle update. Use in TravisCI.}
+  spec.summary       = %q{Create GitHub PullRequest of bundle update in Travis CI.}
+  spec.description   = %q{Create GitHub PullRequest of bundle update in Travis CI.}
   spec.homepage      = "https://github.com/mediba-moritake/travisci-bundle-update-pr"
   spec.license       = "MIT"
 
