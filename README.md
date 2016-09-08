@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Getting Started
 
-Set your GitHub Personal access tokens to `$GITHUB_ACCESS_TOKEN`:
+Set your GitHub Personal access tokens to `$GITHUB_ACCESS_TOKEN`.
 Remember to keep your GitHub Personal access tokens secret, it should be encrypted.
 https://docs.travis-ci.com/user/encryption-keys/
 
@@ -62,7 +62,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/travisci-bundle-update-pr. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/mediba-moritake/travisci-bundle-update-pr. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
