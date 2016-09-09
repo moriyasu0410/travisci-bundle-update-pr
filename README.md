@@ -21,7 +21,10 @@ Or install it yourself as:
 ## Getting Started
 
 Set your GitHub Personal access tokens to `$GITHUB_ACCESS_TOKEN`.
-Remember to keep your GitHub Personal access tokens secret, it should be encrypted.
+https://docs.travis-ci.com/user/environment-variables/#Defining-Variables-in-Repository-Settings
+Remember to keep your GitHub Personal access tokens secret.
+
+Or GitHub Personal access tokens should be encrypted.
 https://docs.travis-ci.com/user/encryption-keys/
 
 ```yaml
