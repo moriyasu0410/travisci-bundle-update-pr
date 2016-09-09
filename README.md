@@ -20,9 +20,9 @@ Or install it yourself as:
 
 ## Getting Started
 
-Set your GitHub Personal access tokens to `$GITHUB_ACCESS_TOKEN`.  
+Set your GitHub Personal access tokens to `$GITHUB_ACCESS_TOKEN`. Remember to keep your GitHub Personal access tokens secret.  
 https://docs.travis-ci.com/user/environment-variables/#Defining-Variables-in-Repository-Settings  
-Remember to keep your GitHub Personal access tokens secret.  
+
 
 Or GitHub Personal access tokens should be encrypted.  
 https://docs.travis-ci.com/user/encryption-keys/  
@@ -42,8 +42,7 @@ before_script:
   - ./scripts/travisci-bundle-update-pr.sh
 ```
 
-In the case of Cron jobs run builds.  
-Cron Jobs are not enabled by default.  
+In the case of Cron jobs run builds. Cron Jobs are not enabled by default.  
 https://docs.travis-ci.com/user/cron-jobs/  
 
 ```bash
