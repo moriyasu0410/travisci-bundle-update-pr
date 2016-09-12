@@ -2,4 +2,4 @@
 
 require "travisci/bundle/update/pr"
 
-Travisci::Bundle::Update::Pr.start(git_username: ARGV.shift, git_email: ARGV.shift, git_branch: ARGV.empty? ? 'master' : ARGV)
+Travisci::Bundle::Update::Pr.start(git_username: ARGV.shift, git_email: ARGV.shift, git_branch: ARGV.empty? ? 'master' : ARGV.shift, path: ARGV.empty? ? '' : ARGV.shift)

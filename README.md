@@ -46,13 +46,28 @@ In the case of Cron jobs run builds. Cron Jobs are not enabled by default.
 https://docs.travis-ci.com/user/cron-jobs/  
 
 ```bash
-# .travisci-bundle-update-pr.sh
+# travisci-bundle-update-pr.sh
+
 #!/bin/bash
 set -ev
 
 if [ "${TRAVIS_EVENT_TYPE}" = "cron" ]; then
     gem install travisci-bundle-update-pr
-    travisci-bundle-update-pr TravisCI travisci@travisci-bundle-update-pr.com
+    travisci-bundle-update-pr TravisCI travisci@example.com master
+fi
+```
+
+If you want to set the path of Gemfile.
+
+```bash
+# travisci-bundle-update-pr.sh
+
+#!/bin/bash
+set -ev
+
+if [ "${TRAVIS_EVENT_TYPE}" = "cron" ]; then
+    gem install travisci-bundle-update-pr
+    travisci-bundle-update-pr TravisCI travisci@example.com master target_path
 fi
 ```
 
