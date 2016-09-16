@@ -4,7 +4,7 @@ Create GitHub PullRequest of bundle update in Travis CI.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add following line to your application's Gemfile:
 
 ```ruby
 gem 'travisci-bundle-update-pr'
