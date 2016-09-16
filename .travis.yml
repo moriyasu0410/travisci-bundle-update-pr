@@ -1,5 +1,11 @@
-sudo: false
-language: ruby
+language:
+  - ruby
+
 rvm:
   - 2.3.1
-before_install: gem install bundler -v 1.12.5
+
+install:
+  - bundle install --path vendor/bundle
+
+before_script:
+  - if [ "${TRAVIS_EVENT_TYPE}" = "cron" ]; then gem install travisci-bundle-update-pr; travisci-bundle-update-pr 'Yasufumi Moritake' mediba-moritake@mediba.jp; fi
